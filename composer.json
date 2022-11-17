@@ -1,0 +1,44 @@
+{
+    "name": "oliverearl/github-sync-tool",
+    "description": "A tool for synchronising commits between GitHub accounts.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oliver Earl",
+            "email": "oliver@oliverearl.co.uk"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "laravel-zero/framework": "^9.2",
+        "nunomaduro/termwind": "^1.14"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "laravel/pint": "^1.2",
+        "mockery/mockery": "^1.4.4",
+        "pestphp/pest": "^1.21.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "bin": ["application"]
+}
