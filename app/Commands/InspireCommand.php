@@ -25,9 +25,9 @@ class InspireCommand extends Command
     /**
      * Execute the console command.
      *
-     * @return mixed
+     * @return int
      */
-    public function handle()
+    public function handle(): int
     {
         render(<<<'HTML'
             <div class="py-1 ml-2">
@@ -37,15 +37,17 @@ class InspireCommand extends Command
                 </em>
             </div>
         HTML);
+
+        return 0;
     }
 
     /**
      * Define the command's schedule.
      *
-     * @param  \Illuminate\Console\Scheduling\Schedule  $schedule
+     * @param \Illuminate\Console\Scheduling\Schedule $schedule
      * @return void
      */
-    public function schedule(Schedule $schedule)
+    public function schedule(Schedule $schedule): void
     {
         // $schedule->command(static::class)->everyMinute();
     }
