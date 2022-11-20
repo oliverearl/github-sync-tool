@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => \App\Commands\SyncGitHubCommand::class,
+    'default' => NunoMaduro\LaravelConsoleSummary\SummaryCommand::class,
 
     /*
     |--------------------------------------------------------------------------
