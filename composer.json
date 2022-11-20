@@ -11,14 +11,20 @@
     ],
     "require": {
         "php": "^8.0",
+        "ext-dom": "*",
+        "guzzlehttp/guzzle": "^7.4",
+        "illuminate/http": "^9.0",
         "laravel-zero/framework": "^9.2",
-        "nunomaduro/termwind": "^1.14"
+        "nunomaduro/termwind": "^1.14",
+        "symfony/css-selector": "^6.1",
+        "symfony/dom-crawler": "^6.1"
     },
     "require-dev": {
-        "roave/security-advisories": "dev-latest",
         "laravel/pint": "^1.2",
         "mockery/mockery": "^1.4.4",
-        "pestphp/pest": "^1.21.3"
+        "pestphp/pest": "^1.21.3",
+        "roave/security-advisories": "dev-latest",
+        "spatie/laravel-ray": "^1.31"
     },
     "autoload": {
         "psr-4": {
