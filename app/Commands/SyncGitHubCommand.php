@@ -162,6 +162,8 @@ class SyncGitHubCommand extends Command
      */
     protected function scrape(): void
     {
+        $this->info('Retrieving data from GitHub...');
+
         $result = $this->scraper->scrape($this->argument('from'), $this->argument('year'));
 
         $days = count($result);
