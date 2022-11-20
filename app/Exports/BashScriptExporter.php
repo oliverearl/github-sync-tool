@@ -38,6 +38,6 @@ class BashScriptExporter
         }
 
         fclose($f);
-        chmod($filename, 0755);
+        chmod($filename, 0o755);
     }
 }
