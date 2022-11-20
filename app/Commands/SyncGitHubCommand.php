@@ -218,8 +218,10 @@ class SyncGitHubCommand extends Command
             return;
         }
 
-        if (! $this->ask('Would you like me to attempt to execute the script here, in this repository?')) {
+        if (! $this->confirm('Would you like me to attempt to execute the script here, in this repository?')) {
             $this->info('Okay! Your script has been successfully generated.');
+
+            return;
         }
 
         $this->info('Please wait...');
@@ -232,7 +234,7 @@ class SyncGitHubCommand extends Command
 
         $this->info('Process complete! The commits have been processed to this repository.');
 
-        if ($this->ask('Would you like me to delete the script?')) {
+        if ($this->confirm('Would you like me to delete the script?')) {
             unlink($this->filename);
         }
     }
