@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Str;
 use Symfony\Component\HttpFoundation\Response;
 
-test('the scraper will return an array of contribution graphs from ', function () {
+it('will return an array of contribution graphs from ', function () {
     Http::fake([
         '*' => Http::response(getGitHubMock(), Response::HTTP_OK),
     ]);
@@ -23,7 +23,7 @@ test('the scraper will return an array of contribution graphs from ', function (
         ->and(head($data))->toBeInstanceOf(ContributionSquare::class);
 });
 
-test('the scraper will throw an exception if the username does not exist', function () {
+it('will throw an exception if the username does not exist', function () {
     Http::fake([
         '*' => Http::response('Not found', Response::HTTP_NOT_FOUND),
     ]);
@@ -31,7 +31,7 @@ test('the scraper will throw an exception if the username does not exist', funct
     app(GitHubScraper::class)->scrape(Str::random(), date('Y'));
 })->throws(RequestException::class);
 
-test('the scraper will throw an exception if the server is down', function () {
+it('will throw an exception if the server is down', function () {
     Http::fake([
         '*' => Http::response('Internal server error', Response::HTTP_INTERNAL_SERVER_ERROR),
     ]);
@@ -39,7 +39,7 @@ test('the scraper will throw an exception if the server is down', function () {
     app(GitHubScraper::class)->scrape(Str::random(), date('Y'));
 })->throws(RequestException::class);
 
-test('the scraper will throw an exception if the elements cannot be found', function () {
+it('will throw an exception if the elements cannot be found', function () {
     Http::fake([
         '*' => Http::response(getOtherMock(), Response::HTTP_OK),
     ]);
