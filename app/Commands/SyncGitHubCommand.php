@@ -22,7 +22,7 @@ class SyncGitHubCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'github-sync
+    protected $signature = 'sync
                         {from : The username of the GitHub profile to sync commits from (required)}
                         {year : The year to sync (required)}';
 
