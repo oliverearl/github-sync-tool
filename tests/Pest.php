@@ -1,5 +1,7 @@
 <?php
 
+use Tests\TestCase;
+
 /*
 |--------------------------------------------------------------------------
 | Test Case
@@ -11,7 +13,9 @@
 |
 */
 
-uses(Tests\TestCase::class)->in('Feature');
+uses(
+    TestCase::class,
+)->in('Feature', 'Unit');
 
 /*
 |--------------------------------------------------------------------------
@@ -39,7 +43,26 @@ expect()->extend('toBeOne', function () {
 |
 */
 
-function something()
-{
-    // ..
+if (! function_exists('getGitHubMock')) {
+    /**
+     * Return the GitHub fixture.
+     *
+     * @return string
+     */
+    function getGitHubMock(): string
+    {
+        return file_get_contents(base_path('/tests/Fixtures/GitHubProfile.html'));
+    }
+}
+
+if (! function_exists('getOtherMock')) {
+    /**
+     * Return the non-GitHub mock.
+     *
+     * @return string
+     */
+    function getOtherMock(): string
+    {
+        return file_get_contents(base_path('/tests/Fixtures/NotGitHub.html'));
+    }
 }
