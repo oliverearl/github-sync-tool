@@ -1,12 +1,34 @@
 name: PHP Tests
 
-on: 'pull_request'
+on: [ push, pull_request ]
 
 jobs:
-  build-test:
-    runs-on: ubuntu-latest
+  test:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      fail-fast: true
+      matrix:
+        os: [ ubuntu-latest, windows-latest ]
+        php: [ 8.2, 8.1]
+
+    name: P${{ matrix.php }} - ${{ matrix.os }}
 
     steps:
-      - uses: actions/checkout@v3
-      - uses: php-actions/composer@v6
-      - uses: NWBY/pest-action@v1.2.0
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          extensions: dom, curl, libxml, mbstring, zip, pcntl, bcmath, soap, intl, exif, iconv
+          coverage: none
+
+      - name: Install dependencies
+        run: |
+          composer install --prefer-dist --no-interaction
+
+      - name: Execute tests
+        run: vendor/bin/pest
+
