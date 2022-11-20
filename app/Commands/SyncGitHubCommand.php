@@ -210,15 +210,21 @@ class SyncGitHubCommand extends Command
         );
     }
 
+    /**
+     * Prompts to execute the generated script here and now in this repository.
+     * Skips execution if processes aren't supported, or if this is running under Windows.
+     *
+     * @throws \Symfony\Component\Process\Exception\ProcessFailedException
+     *
+     * @return void
+     */
     protected function promptToExecute(): void
     {
-        if (PHP_OS === 'WINNT') {
-            $this->warn('Cannot execute a Bash script (just yet) on native Windows, so my job here is done!');
-
-            return;
-        }
-
-        if (! $this->confirm('Would you like me to attempt to execute the script here, in this repository?')) {
+        if (
+            PHP_OS === 'WINNT' ||
+            ! function_exists('proc_open') ||
+            ! $this->confirm('Would you like me to attempt to execute the script here, in this repository?')
+        ) {
             $this->info('Okay! Your script has been successfully generated.');
 
             return;
