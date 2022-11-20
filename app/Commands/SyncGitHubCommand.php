@@ -198,7 +198,7 @@ class SyncGitHubCommand extends Command
             $this->argument('year'),
         );
 
-        if (! is_writable($this->filename)) {
+        if (! is_writable(base_path())) {
             throw new RuntimeException('This directory is not writeable, cannot continue!');
         }
 
