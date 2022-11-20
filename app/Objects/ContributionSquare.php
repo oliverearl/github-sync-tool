@@ -13,14 +13,14 @@ final class ContributionSquare
      *
      * @var string
      */
-    private string $date;
+    private readonly string $date;
 
     /**
      * The number of contributions committed on a given day.
      *
      * @var int
      */
-    private int $count;
+    private readonly int $count;
 
     /**
      * Build a new contribution square object.
