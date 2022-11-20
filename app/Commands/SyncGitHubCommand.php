@@ -192,13 +192,13 @@ class SyncGitHubCommand extends Command
 
         $this->filename = sprintf(
             '%s%s%s_%s.sh',
-            base_path(),
+            getcwd(),
             DIRECTORY_SEPARATOR,
             $this->argument('from'),
             $this->argument('year'),
         );
 
-        if (! is_writable(base_path())) {
+        if (! is_writable(getcwd())) {
             throw new RuntimeException('This directory is not writeable, cannot continue!');
         }
 
