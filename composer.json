@@ -14,6 +14,7 @@
         "ext-dom": "*",
         "guzzlehttp/guzzle": "^7.4",
         "illuminate/http": "^9.0",
+        "laminas/laminas-text": "^2.9",
         "laravel-zero/framework": "^9.2",
         "nunomaduro/termwind": "^1.14",
         "symfony/css-selector": "^6.1",
@@ -46,5 +47,5 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "bin": ["github-sync-tool"]
+    "bin": ["gh-sync"]
 }
