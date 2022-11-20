@@ -231,7 +231,7 @@ class SyncGitHubCommand extends Command
         }
 
         $this->info('Please wait...');
-        $process = new Process(['bash ' . $this->filename]);
+        $process = new Process([$this->filename]);
         $process->run();
 
         if (! $process->isSuccessful()) {
