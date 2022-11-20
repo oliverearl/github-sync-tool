@@ -22,8 +22,8 @@ it('can be created and its data can be accessed through accessors', function () 
 });
 
 it('will throw an exception if the date provided is not a real date', function () {
-   $date = 'Not a date';
-   $count = 10;
+    $date = 'Not a date';
+    $count = 10;
 
-   $square = new ContributionSquare($date, $count);
+    $square = new ContributionSquare($date, $count);
 })->throws(InvalidArgumentException::class);
