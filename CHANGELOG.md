@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.1.5 - 2022-12-21
+
+### What's Changed
+
+- chore(deps): Bump illuminate/http from 9.43.0 to 9.44.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/12
+
+**Full Changelog**: https://github.com/oliverearl/github-sync-tool/compare/v0.1.4...v0.1.5
+
 ## v0.1.4 - 2022-12-12
 
 ### What's Changed
