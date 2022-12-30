@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.1.6 - 2022-12-30
+
+### What's Changed
+
+- chore(deps): Bump illuminate/http from 9.44.0 to 9.45.1 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/13
+- chore(deps-dev): Bump laravel/pint from 1.2.1 to 1.3.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/14
+- chore(deps): Bump nunomaduro/termwind from 1.14.2 to 1.15.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/15
+
+**Full Changelog**: https://github.com/oliverearl/github-sync-tool/compare/v0.1.5...v0.1.6
+
 ## v0.1.5 - 2022-12-21
 
 ### What's Changed
