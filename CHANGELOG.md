@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.1.7 - 2023-01-02
+
+### What's Changed
+
+- chore(deps): Bump symfony/dom-crawler from 6.2.0 to 6.2.3 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/18
+- chore(deps): Bump symfony/css-selector from 6.2.0 to 6.2.3 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/17
+- chore(deps): Bump aglipanci/laravel-pint-action from 1.0.0 to 2.1.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/16
+
+**Full Changelog**: https://github.com/oliverearl/github-sync-tool/compare/v0.1.6...v0.1.7
+
 ## v0.1.6 - 2022-12-30
 
 ### What's Changed
