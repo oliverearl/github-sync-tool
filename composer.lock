@@ -1291,7 +1291,7 @@
         },
         {
             "name": "illuminate/http",
-            "version": "v9.46.0",
+            "version": "v9.47.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/http.git",
@@ -1444,7 +1444,7 @@
         },
         {
             "name": "illuminate/session",
-            "version": "v9.46.0",
+            "version": "v9.47.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/session.git",
