@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.1.11 - 2023-01-30
+
+### What's Changed
+
+- chore(deps): Bump symfony/css-selector from 6.2.3 to 6.2.5 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/24
+- chore(deps): Bump symfony/dom-crawler from 6.2.3 to 6.2.5 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/25
+- chore(deps-dev): Bump spatie/laravel-ray from 1.32.0 to 1.32.1 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/26
+
+**Full Changelog**: https://github.com/oliverearl/github-sync-tool/compare/v0.1.10...v0.1.11
+
 ## v0.1.10 - 2023-01-25
 
 ### What's Changed
