@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.1.12 - 2023-02-08
+
+### What's Changed
+
+- chore(deps): Bump symfony/http-kernel from 6.2.4 to 6.2.6 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/27
+- chore(deps): Bump illuminate/http from 9.48.0 to 9.50.2 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/28
+- chore(deps-dev): Bump spatie/laravel-ray from 1.32.1 to 1.32.2 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/29
+- chore(deps-dev): Bump pestphp/pest from 1.22.3 to 1.22.4 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/30
+- chore(deps-dev): Bump laravel/pint from 1.4.0 to 1.4.1 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/31
+
+**Full Changelog**: https://github.com/oliverearl/github-sync-tool/compare/v0.1.11...v0.1.12
+
 ## v0.1.11 - 2023-01-30
 
 ### What's Changed
