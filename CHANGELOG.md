@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.1.13 - 2023-02-20
+
+### What's Changed
+
+- chore(deps): Bump nunomaduro/termwind from 1.15.0 to 1.15.1 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/33
+- chore(deps-dev): Bump laravel/pint from 1.4.1 to 1.5.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/34
+- chore(deps): Bump illuminate/http from 9.50.2 to 9.52.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/35
+
+**Full Changelog**: https://github.com/oliverearl/github-sync-tool/compare/v0.1.12...v0.1.13
+
 ## v0.1.12 - 2023-02-08
 
 ### What's Changed
