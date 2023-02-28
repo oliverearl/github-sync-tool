@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.1.14 - 2023-02-28
+
+### What's Changed
+
+- chore(deps-dev): Bump laravel/pint from 1.5.0 to 1.6.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/37
+- chore(deps): Bump illuminate/http from 9.52.0 to 9.52.4 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/36
+
+**Full Changelog**: https://github.com/oliverearl/github-sync-tool/compare/v0.1.13...v0.1.14
+
 ## v0.1.13 - 2023-02-20
 
 ### What's Changed
