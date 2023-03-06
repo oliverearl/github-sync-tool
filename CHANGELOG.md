@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.1.15 - 2023-03-06
+
+### What's Changed
+
+- chore(deps-dev): Bump pestphp/pest from 1.22.4 to 1.22.5 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/38
+- chore(deps-dev): Bump spatie/laravel-ray from 1.32.2 to 1.32.3 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/39
+- chore(deps): Bump symfony/dom-crawler from 6.2.5 to 6.2.7 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/40
+- chore(deps): Bump symfony/css-selector from 6.2.5 to 6.2.7 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/41
+
+**Full Changelog**: https://github.com/oliverearl/github-sync-tool/compare/v0.1.14...v0.1.15
+
 ## v0.1.14 - 2023-02-28
 
 ### What's Changed
