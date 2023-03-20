@@ -6,4 +6,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: "laravel-pint"
-        uses: aglipanci/laravel-pint-action@2.1.0
+        uses: aglipanci/laravel-pint-action@2.2.0
