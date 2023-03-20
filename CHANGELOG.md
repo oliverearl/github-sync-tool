@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.1.16 - 2023-03-20
+
+### What's Changed
+
+- chore(deps): Bump aglipanci/laravel-pint-action from 2.1.0 to 2.2.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/43
+- chore(deps-dev): Bump pestphp/pest from 1.22.5 to 1.22.6 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/42
+
+**Full Changelog**: https://github.com/oliverearl/github-sync-tool/compare/v0.1.15...v0.1.16
+
 ## v0.1.15 - 2023-03-06
 
 ### What's Changed
