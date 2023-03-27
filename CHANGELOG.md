@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.1.17 - 2023-03-27
+
+### What's Changed
+
+- chore(deps-dev): Bump spatie/laravel-ray from 1.32.3 to 1.32.4 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/44
+- chore(deps-dev): Bump laravel/pint from 1.6.0 to 1.7.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/45
+
+**Full Changelog**: https://github.com/oliverearl/github-sync-tool/compare/v0.1.16...v0.1.17
+
 ## v0.1.16 - 2023-03-20
 
 ### What's Changed
