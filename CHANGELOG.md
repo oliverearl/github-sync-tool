@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.1.18 - 2023-04-28
+
+### What's Changed
+
+- chore(deps): Bump symfony/dom-crawler from 6.2.7 to 6.2.9 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/49
+- chore(deps): Bump guzzlehttp/psr7 from 2.4.4 to 2.5.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/50
+- chore(deps): Bump illuminate/http from 9.52.4 to 9.52.6 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/51
+- chore(deps-dev): Bump pestphp/pest from 1.22.6 to 1.23.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/52
+- chore(deps-dev): Bump laravel/pint from 1.7.0 to 1.9.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/53
+
+**Full Changelog**: https://github.com/oliverearl/github-sync-tool/compare/v0.1.17...v0.1.18
+
 ## v0.1.17 - 2023-03-27
 
 ### What's Changed
