@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.1.19 - 2023-05-02
+
+### What's Changed
+
+- chore(deps): Bump illuminate/http from 9.52.6 to 9.52.7 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/54
+- chore(deps-dev): Bump laravel/pint from 1.9.0 to 1.10.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/55
+- chore(deps): Bump guzzlehttp/guzzle from 7.5.0 to 7.5.1 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/56
+
+**Full Changelog**: https://github.com/oliverearl/github-sync-tool/compare/v0.1.18...v0.1.19
+
 ## v0.1.18 - 2023-04-28
 
 ### What's Changed
