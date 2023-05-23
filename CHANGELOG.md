@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.1.20 - 2023-05-23
+
+### What's Changed
+
+- chore(deps): Bump guzzlehttp/guzzle from 7.5.1 to 7.7.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/59
+- chore(deps): Bump laminas/laminas-text from 2.9.0 to 2.10.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/57
+
+**Full Changelog**: https://github.com/oliverearl/github-sync-tool/compare/v0.1.19...v0.1.20
+
 ## v0.1.19 - 2023-05-02
 
 ### What's Changed
