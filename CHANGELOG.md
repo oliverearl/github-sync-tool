@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.1.21 - 2023-06-05
+
+### What's Changed
+
+- chore(deps): Bump illuminate/http from 9.52.7 to 9.52.8 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/64
+- chore(deps): Bump symfony/dom-crawler from 6.2.9 to 6.3.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/63
+- chore(deps): Bump symfony/css-selector from 6.2.7 to 6.3.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/62
+- chore(deps-dev): Bump mockery/mockery from 1.5.1 to 1.6.1 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/61
+- chore(deps): Bump aglipanci/laravel-pint-action from 2.2.0 to 2.3.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/60
+
+**Full Changelog**: https://github.com/oliverearl/github-sync-tool/compare/v0.1.20...v0.1.21
+
 ## v0.1.20 - 2023-05-23
 
 ### What's Changed
