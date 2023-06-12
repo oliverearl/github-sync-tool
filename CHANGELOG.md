@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.1.22 - 2023-06-12
+
+### What's Changed
+
+- chore(deps-dev): Bump mockery/mockery from 1.6.1 to 1.6.2 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/67
+- chore(deps-dev): Bump laravel/pint from 1.10.0 to 1.10.2 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/66
+- chore(deps): Bump illuminate/http from 9.52.8 to 9.52.9 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/65
+
+**Full Changelog**: https://github.com/oliverearl/github-sync-tool/compare/v0.1.21...v0.1.22
+
 ## v0.1.21 - 2023-06-05
 
 ### What's Changed
