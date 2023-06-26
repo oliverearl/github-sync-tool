@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.1.23 - 2023-06-26
+
+### What's Changed
+
+- chore(deps-dev): Bump laravel/pint from 1.10.2 to 1.10.3 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/70
+- chore(deps-dev): Bump spatie/laravel-ray from 1.32.4 to 1.32.5 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/69
+- chore(deps): Bump symfony/dom-crawler from 6.3.0 to 6.3.1 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/68
+
+**Full Changelog**: https://github.com/oliverearl/github-sync-tool/compare/v0.1.22...v0.1.23
+
 ## v0.1.22 - 2023-06-12
 
 ### What's Changed
