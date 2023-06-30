@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.0 - 2023-06-30
+
+### What's Changed
+
+- Version 1.0.0 - Support for new GitHub Layout by @oliverearl in https://github.com/oliverearl/github-sync-tool/pull/71
+
+**Full Changelog**: https://github.com/oliverearl/github-sync-tool/compare/v0.1.23...v1.0.0
+
 ## v0.1.23 - 2023-06-26
 
 ### What's Changed
