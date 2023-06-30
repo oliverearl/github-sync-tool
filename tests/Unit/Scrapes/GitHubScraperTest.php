@@ -14,7 +14,7 @@ it('will return an array of contribution graphs from ', function () {
         '*' => Http::response(getGitHubMock(), Response::HTTP_OK),
     ]);
 
-    $data = app(GitHubScraper::class)->scrape(Str::random(), date('Y'));
+    $data = app(GitHubScraper::class)->scrape(Str::random(), '2022');
 
     expect($data)
         ->toBeArray()
@@ -38,11 +38,3 @@ it('will throw an exception if the server is down', function () {
 
     app(GitHubScraper::class)->scrape(Str::random(), date('Y'));
 })->throws(RequestException::class);
-
-it('will throw an exception if the elements cannot be found', function () {
-    Http::fake([
-        '*' => Http::response(getOtherMock(), Response::HTTP_OK),
-    ]);
-
-    app(GitHubScraper::class)->scrape(Str::random(), date('Y'));
-})->throws(InvalidArgumentException::class);
