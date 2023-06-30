@@ -26,6 +26,13 @@ class GitHubScraper
     final public const TAB_NAME = 'overview';
 
     /**
+     * Needle to be used to determine contribution quantity.
+     *
+     * @var string
+     */
+    final public const NODE_NEEDLE = ' contributions';
+
+    /**
      * Scrape a given GitHub profile.
      *
      * @param string $username
@@ -52,8 +59,13 @@ class GitHubScraper
             $date = $square->attr('data-date');
             $hasData = $square->attr('data-level');
 
-            if ($hasData !== '0') {
-                $contributionCount = (int) Str::before($square->innerText(), ' contributions');
+            if ($date !== null && $hasData !== '0') {
+                // The value is sometimes wrapped in a span. Search without it first.
+                $contributionCount = Str::before($square->innerText(), self::NODE_NEEDLE) ?: null;
+                $contributionCount ??= Str::before($square->filter('span')?->first()?->innerText(), self::NODE_NEEDLE) ?: null;
+
+                // Convert the value to a number, including null, which becomes zero.
+                $contributionCount = (int) $contributionCount;
 
                 if ($contributionCount > 0) {
                     $graph[] = new ContributionSquare(
