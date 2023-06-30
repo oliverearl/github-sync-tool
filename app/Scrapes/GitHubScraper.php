@@ -63,5 +63,7 @@ class GitHubScraper
                 }
             }
         });
+
+        return $graph;
     }
 }
