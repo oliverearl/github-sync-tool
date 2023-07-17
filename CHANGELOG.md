@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.0.1 - 2023-07-17
+
+### What's Changed
+
+- chore(deps): Bump illuminate/http from 9.52.9 to 9.52.10 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/72
+- chore(deps-dev): Bump pestphp/pest from 1.23.0 to 1.23.1 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/73
+- chore(deps-dev): Bump laravel/pint from 1.10.3 to 1.10.5 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/74
+
+**Full Changelog**: https://github.com/oliverearl/github-sync-tool/compare/v1.0.0...v1.0.1
+
 ## v1.0.0 - 2023-06-30
 
 ### What's Changed
