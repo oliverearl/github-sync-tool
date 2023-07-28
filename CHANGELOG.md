@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.0.2 - 2023-07-28
+
+### What's Changed
+
+- chore(deps-dev): Bump spatie/laravel-ray from 1.32.5 to 1.32.6 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/75
+- chore(deps-dev): Bump mockery/mockery from 1.6.2 to 1.6.4 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/76
+
+**Full Changelog**: https://github.com/oliverearl/github-sync-tool/compare/v1.0.1...v1.0.2
+
 ## v1.0.1 - 2023-07-17
 
 ### What's Changed
