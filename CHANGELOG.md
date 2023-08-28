@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.0.3 - 2023-08-28
+
+### What's Changed
+
+- chore(deps): Bump symfony/css-selector from 6.3.0 to 6.3.2 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/78
+- chore(deps): Bump illuminate/http from 9.52.10 to 9.52.15 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/81
+- chore(deps-dev): Bump mockery/mockery from 1.6.4 to 1.6.6 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/82
+- chore(deps-dev): Bump laravel/pint from 1.10.5 to 1.11.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/84
+- chore(deps): Bump guzzlehttp/guzzle from 7.7.0 to 7.8.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/85
+
+**Full Changelog**: https://github.com/oliverearl/github-sync-tool/compare/v1.0.2...v1.0.3
+
 ## v1.0.2 - 2023-07-28
 
 ### What's Changed
