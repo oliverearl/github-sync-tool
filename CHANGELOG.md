@@ -1,5 +1,19 @@
 # Changelog
 
+## v1.0.4 - 2023-11-10
+
+### What's Changed
+
+- chore(deps): Bump actions/checkout from 2 to 4 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/89
+- chore(deps-dev): Bump laravel/pint from 1.11.0 to 1.12.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/88
+- chore(deps): Bump symfony/dom-crawler from 6.3.1 to 6.3.4 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/87
+- chore(deps-dev): Bump spatie/laravel-ray from 1.32.6 to 1.33.0 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/86
+- chore(deps): Bump stefanzweifel/git-auto-commit-action from 4 to 5 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/92
+- chore(deps): Bump illuminate/http from 9.52.15 to 9.52.16 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/93
+- chore(deps-dev): Bump laravel/pint from 1.12.0 to 1.13.5 by @dependabot in https://github.com/oliverearl/github-sync-tool/pull/95
+
+**Full Changelog**: https://github.com/oliverearl/github-sync-tool/compare/v1.0.3...v1.0.4
+
 ## v1.0.3 - 2023-08-28
 
 ### What's Changed
