@@ -18,7 +18,7 @@
         "laravel-zero/framework": "^9.2",
         "nunomaduro/termwind": "^1.14",
         "symfony/css-selector": "^6.1",
-        "symfony/dom-crawler": "^6.1"
+        "symfony/dom-crawler": "^7.1"
     },
     "require-dev": {
         "laravel/pint": "^1.2",
